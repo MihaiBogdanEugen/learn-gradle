@@ -1,0 +1,9 @@
+apply plugin : 'org.asciidoctor.convert' 
+
+asciidoctor {
+    sources {
+        include 'greeter.adoc' 
+    }
+}
+
+build.dependsOn 'asciidoctor'
