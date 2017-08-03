@@ -1,0 +1,11 @@
+apply plugin : 'java'
+apply plugin : 'application' 
+mainClassName = 'GreeterApp'
+
+repositories {
+    jcenter() 
+}
+
+dependencies {
+    implementation 'com.github.lalyos:jfiglet:0.0.8' 
+}
